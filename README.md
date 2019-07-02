@@ -86,8 +86,8 @@ his-cloud-xxx-xxx
 ```
 
 ```
-├─common       #通用组件
-├─components   # uni-app组件目录
+├─common             #通用组件
+├─components         # uni-app组件目录
 ├─hybrid             # 存放本地网页的目录
 │  └─html
 ├─pages              #业务页面文件存放的目录
