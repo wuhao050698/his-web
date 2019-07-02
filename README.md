@@ -86,9 +86,6 @@ his-cloud-xxx-xxx
 ```
 
 ```
-卷 新加卷 的文件夹 PATH 列表
-卷序列号为 9674-2AA4
-F:.
 ├─common       #通用组件
 ├─components   # uni-app组件目录
 ├─hybrid             # 存放本地网页的目录
@@ -104,16 +101,16 @@ F:.
 │        ├─login.vue
 │        ├─registrationResult.vue
 │        ├─reserve.vue
-├─platforms	             #存放各平台专用页面的目录
-├─static		               #存放应用引用静态资源（如图片、视频等）的目录
+├─platforms        #存放各平台专用页面的目录
+├─static           #存放应用引用静态资源（如图片、视频等）的目录
 │  ├─app-plus
 │  └─img
-├─store		                #全局 store 管理
-├─main.js                #Vue初始化入口文件
-├─App.vue                #应用配置，用来配置App全局样式以及监听 应用生命周期
-├─manifest.json          #配置应用名称、appid、logo、版本等打包信息，详见
-├─pages.json             #配置页面路由、导航条、选项卡等页面类信息，详见
-└─wxcomponents	          #存放小程序组件的目录
+├─store            #全局 store 管理
+├─main.js          #Vue初始化入口文件
+├─App.vue          #应用配置，用来配置App全局样式以及监听 应用生命周期
+├─manifest.json    #配置应用名称、appid、logo、版本等打包信息，详见
+├─pages.json       #配置页面路由、导航条、选项卡等页面类信息，详见
+└─wxcomponents     #存放小程序组件的目录
 ```
 
 ## 涉及的框架
