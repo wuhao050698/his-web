@@ -33,6 +33,58 @@
 └─package.json               # package.json  
 ```
 
+## 后端架构
+```
+his-cloud-xxx-xxx
+└─src
+   └─main
+       ├─java
+       │  └─com
+       │      └─neu
+       │          └─his
+       │              └─cloud
+       │                  └─xxx
+       │                      └─xxx
+       │                          ├─common         //通用类
+       │                          ├─component      //切面组件
+       │                          ├─config         //配置文件
+       │                          ├─controller     //接口
+       │                          │  ├─bms
+       │                          │  ├─dms
+       │                          │  ├─pms
+       │                          │  └─sms
+       │                          ├─distribution   //请求转发
+       │                          │  └─api
+       │                          │      └─pc    
+       │                          │          ├─bms
+       │                          │          ├─dms
+       │                          │          ├─pms
+       │                          │          └─sms
+       │                          ├─domain    
+       │                          ├─dto            //自定义数据传输对象
+       │                          │  ├─app
+       │                          │  ├─bms
+       │                          │  ├─dms
+       │                          │  ├─pms
+       │                          │  └─sms
+       │                          ├─filter         //自定义过滤器
+       │                          ├─mapper         //mybatis generator生成dao层接口
+       │                          ├─dao	           //自定义dao层接口
+       │                          ├─model          //实体类
+       │                          ├─service        //service接口
+       │                          │  └─impl        //service接口实现类
+       │                          └─util           //自定义工具类
+       └─resources
+           └─com
+               └─neu
+                   └─his
+                       └─cloud
+                           ├─xxx
+                               ├─xxx
+                                   └─mapper        //数据库映射XML
+
+```
+
 ## 涉及的框架
   ES2015+、vue、vuex、vue-router 、vue-cli 、axios 、element-ui 、mock.js等
 
