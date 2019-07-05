@@ -86,11 +86,20 @@ his-cloud-xxx-xxx
 ```
 
 ```
-├─common             #通用组件
-├─components         # uni-app组件目录
-├─hybrid             # 存放本地网页的目录
+├─common      
+├─components   # general purpose module
+│  ├─uni-badge
+│  ├─uni-card
+│  ├─uni-grid
+│  ├─uni-icon
+│  ├─uni-list
+│  ├─uni-list-item
+│  ├─uni-nav-bar
+│  ├─uni-rate
+│  └─uni-tag
+├─hybrid             # Directory for local web pages
 │  └─html
-├─pages              #业务页面文件存放的目录
+├─pages              #Directory where the business page files are stored
 │  └─his
 │        ├─detail.vue
 │        ├─doctordetail.vue
@@ -101,16 +110,26 @@ his-cloud-xxx-xxx
 │        ├─login.vue
 │        ├─registrationResult.vue
 │        ├─reserve.vue
-├─platforms        #存放各平台专用页面的目录
-├─static           #存放应用引用静态资源（如图片、视频等）的目录
+├─platforms	#stors pages for each platform
+├─static		#Stores  the application references static resources (such as images, videos, etc.). 
 │  ├─app-plus
 │  └─img
-├─store            #全局 store 管理
-├─main.js          #Vue初始化入口文件
-├─App.vue          #应用配置，用来配置App全局样式以及监听 应用生命周期
-├─manifest.json    #配置应用名称、appid、logo、版本等打包信息，详见
-├─pages.json       #配置页面路由、导航条、选项卡等页面类信息，详见
-└─wxcomponents     #存放小程序组件的目录
+├─store		#Global store management
+├─main.js                #Vue initializes the entry file
+├─App.vue              #Application configuration, configures App global styles and listen to application lifecycle
+├─manifest.json      #Configure App global styles and listen to Application lifecycle
+├─pages.json          #Configure page routing, navigation bars, tabs, and other page class information
+├─unpackage         #Uni - app can Package project as native App, wx applets, H5
+└─wxcomponents  #Directory where small program components are stored
+    └─vant
+        ├─button
+        ├─common
+        │  └─style
+        │      └─mixins
+        ├─loading
+        ├─mixins
+        │  └─observer
+        └─wxs
 ```
 
 ## 涉及的框架
